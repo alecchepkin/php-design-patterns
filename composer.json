@@ -1,0 +1,14 @@
+{
+    "name": "legr/designpatterns",
+    "description": "Design Patterns",
+    "authors": [
+        {
+            "name": "Oleg Chepkin",
+            "email": "olegre@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "psr-4":{"":"src/"}
+    }
+}
