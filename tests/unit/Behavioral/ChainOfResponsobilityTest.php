@@ -21,7 +21,6 @@ class ChainOfResponsobilityTest extends \PHPUnit_Framework_TestCase{
         $loger->message('Access denied for User1', LoggerHelper::PRIORITY_NOTICE);
         $loger->message('Roll back the transaction', LoggerHelper::PRIORITY_ERROR);
 
-        exit;
 
     }
 
