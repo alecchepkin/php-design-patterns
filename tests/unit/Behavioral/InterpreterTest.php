@@ -44,7 +44,5 @@ class InterpreterTest extends \PHPUnit_Framework_TestCase
         $context = new Context(["a"=>25, "b"=>6, "c"=>5, "d"=>30]);
         $result = $expression->interpret($context);
         $this->assertEquals(4, $result);
-
-
     }
 }
