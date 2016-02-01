@@ -15,7 +15,7 @@ use Behavioral\Command\Operation\Minus;
 use Behavioral\Command\Operation\Multiplication;
 use Behavioral\Command\Operation\Plus;
 
-class CommandTest extends \PHPUnit_Framework_TestCase
+class Test extends \PHPUnit_Framework_TestCase
 {
     public function testCalculate()
     {

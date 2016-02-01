@@ -12,7 +12,7 @@ use Behavioral\Interpreter\Expression\Plus;
 use Behavioral\Interpreter\Expression\Minus;
 use Behavioral\Interpreter\Expression\Variable;
 
-class InterpreterTest extends \PHPUnit_Framework_TestCase
+class Test extends \PHPUnit_Framework_TestCase
 {
     public function testInterpreter()
     {

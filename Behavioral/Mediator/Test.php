@@ -12,7 +12,7 @@ namespace Behavioral\Mediator;
 use Behavioral\Mediator\Mediator\Book as BookMediator;
 
 
-class MediatorTest extends \PHPUnit_Framework_TestCase
+class Test extends \PHPUnit_Framework_TestCase
 {
     public function testMediator()
     {
