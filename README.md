@@ -1,6 +1,5 @@
 ### Type Design Patterns
 
-Виды паттернов
 
 ![alt tag](https://habrastorage.org/getpro/habr/post_images/262/c9e/d92/262c9ed9247e232f099d35de841bf5d9.png) — behavioral;
 
@@ -16,11 +15,11 @@ class. The arrow points to the class of the instantiated objects.
 
 ####Relations between classes
 
- — ![alt tag](https://habrastorage.org/getpro/habr/post_images/ca8/dca/2a5/ca8dca2a537a1ec8044e88984c3f8b02.png) агрегация (aggregation) — описывает связь «часть»–«целое», в котором «часть» может существовать отдельно от «целого». Ромб указывается со стороны «целого».
+ ![alt tag](https://habrastorage.org/getpro/habr/post_images/ca8/dca/2a5/ca8dca2a537a1ec8044e88984c3f8b02.png) агрегация (aggregation) — описывает связь «часть»–«целое», в котором «часть» может существовать отдельно от «целого». Ромб указывается со стороны «целого».
 
- — ![alt tag](https://habrastorage.org/getpro/habr/post_images/4de/b17/e66/4deb17e6696fc05e610d73ca47b1a49a.png) композиция (composition) — подвид агрегации, в которой «части» не могут существовать отдельно от «целого».
+ ![alt tag](https://habrastorage.org/getpro/habr/post_images/4de/b17/e66/4deb17e6696fc05e610d73ca47b1a49a.png) композиция (composition) — подвид агрегации, в которой «части» не могут существовать отдельно от «целого».
 
- — ![alt tag](https://habrastorage.org/getpro/habr/post_images/43b/4e7/9ac/43b4e79ac9d10a4f8b57859b019c7c24.png) зависимость (dependency) — A dashed arrowhead line indicates a class that instantiates objects of another
+ ![alt tag](https://habrastorage.org/getpro/habr/post_images/43b/4e7/9ac/43b4e79ac9d10a4f8b57859b019c7c24.png) зависимость (dependency) — A dashed arrowhead line indicates a class that instantiates objects of another
                                                                                                                                             class. The arrow points to the class of the instantiated objects.
 
 
