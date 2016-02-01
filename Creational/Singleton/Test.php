@@ -8,7 +8,7 @@
 
 namespace Creational\Singleton;
 
-class SingletonTest extends \PHPUnit_Framework_TestCase {
+class Test extends \PHPUnit_Framework_TestCase {
 
     public function testSingleton(){
         $singleton = Singleton::instance();

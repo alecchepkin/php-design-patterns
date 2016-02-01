@@ -11,7 +11,7 @@ namespace Creational\Prototype;
 
 use Creational\Prototype\Book\MySQL as MySQLBookPrototype;
 
-class PrototypeTest extends \PHPUnit_Framework_TestCase {
+class Test extends \PHPUnit_Framework_TestCase {
 
     public function testPrototype(){
         $prototype = new MySQLBookPrototype();
