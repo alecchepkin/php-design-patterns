@@ -2,10 +2,35 @@
 
 
 ![alt tag](https://habrastorage.org/getpro/habr/post_images/262/c9e/d92/262c9ed9247e232f099d35de841bf5d9.png) — behavioral;
+- Chain of Responsibility
+- Command
+- Interpreter
+- Iterator
+- Mediator
+- Memento
+- Observer
+- State
+- Strategy
+- Template
+- Method
+- Visitor
 
 ![alt tag](https://habrastorage.org/getpro/habr/post_images/8fd/16f/b0f/8fd16fb0fc58c0dc3291abe1d98abb12.png) — creational;
+- Abstract Factory
+- Builder
+- Factory Method
+- Prototype
+- Singleton
+
 
 ![alt tag](https://habrastorage.org/getpro/habr/post_images/3d2/c67/1bf/3d2c671bfcaa92b6a7ee0eb185247dc8.png) — structural.
+- Adapter
+- Bridge
+- Composite
+- Decorator
+- Facade
+- Flyweight
+- Proxy
 
 ![alt tag](https://habrastorage.org/getpro/habr/post_images/349/055/ba9/349055ba96e21b43c7d3e506d4920bc8.jpg)
 

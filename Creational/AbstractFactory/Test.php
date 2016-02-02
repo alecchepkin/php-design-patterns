@@ -9,7 +9,7 @@
 namespace Creational\AbstractFactory;
 
 
-class AbstractFactoryTest extends \PHPUnit_Framework_TestCase
+class Test extends \PHPUnit_Framework_TestCase
 {
 
     protected function setUp(){
