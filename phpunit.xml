@@ -1,3 +1,6 @@
-<phpunit bootstrap="bootstrap.php">
+<phpunit
+        bootstrap="bootstrap.php"
+        colors="true"
+>
 
 </phpunit>

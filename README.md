@@ -25,8 +25,8 @@
 
  ![dependency] зависимость (dependency) — A dashed arrowhead line indicates a class that instantiates objects of another class. The arrow points to the class of the instantiated objects.
 
-
  ![generalization] обобщение (generalization) — отношение наследования или реализации интерфейса. Со стороны стрелки находится суперкласс или интерфейс.
+
 [//]:
 
 [B]: https://habrastorage.org/getpro/habr/post_images/262/c9e/d92/262c9ed9247e232f099d35de841bf5d9.png
@@ -65,3 +65,4 @@
 [Facade]: <https://github.com/olegre/DesignPatterns/tree/master/Structural/Facade>
 [Flyweight]: <https://github.com/olegre/DesignPatterns/tree/master/Structural/Flyweight>
 [Proxy]: <https://github.com/olegre/DesignPatterns/tree/master/Structural/Proxy>
+
