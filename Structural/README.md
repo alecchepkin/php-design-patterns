@@ -1,0 +1,8 @@
+###![alt tag](https://habrastorage.org/getpro/habr/post_images/3d2/c67/1bf/3d2c671bfcaa92b6a7ee0eb185247dc8.png) [Structural](https://github.com/olegre/DesignPatterns/tree/master/Structural/)
+- [Adapter](https://github.com/olegre/DesignPatterns/tree/master/Structural/Adapter)
+- [Bridge](https://github.com/olegre/DesignPatterns/tree/master/Structural/Bridge)
+- [Composite](https://github.com/olegre/DesignPatterns/tree/master/Structural/Composite)
+- [Decorator](https://github.com/olegre/DesignPatterns/tree/master/Structural/Decorator)
+- [Facade](https://github.com/olegre/DesignPatterns/tree/master/Structural/Facade)
+- [Flyweight](https://github.com/olegre/DesignPatterns/tree/master/Structural/Flyweight)
+- [Proxy](https://github.com/olegre/DesignPatterns/tree/master/Structural/Proxy)
