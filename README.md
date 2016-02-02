@@ -1,39 +1,19 @@
 ### Design Patterns
 
-
-####![B] 
-[Behavioral]
-- [Chain of Responsibility]
-- [Command]
-- [Interpreter]
-- [Iterator]
-- [Mediator]
-- [Memento]
-- [Observer]
-- [State]
-- [Strategy]
-- [Template]
-- [Method]
-- [Visitor]
-
-####![C]
-[Creational]
-- [Abstract Factory]
-- [Builder]
-- [Factory Method]
-- [Prototype]
-- [Singleton]
-
-
-####![S]
-[Structural]
-- [Adapter]
-- [Bridge]
-- [Composite]
-- [Decorator]
-- [Facade]
-- [Flyweight]
-- [Proxy]
+| ![][B] [Behavioral]  | ![][C] [Creational] | ![][S] [Structural] |
+| ------------- | ------------- | ------------- |
+| [Chain of Responsibility] | Abstract Factory | Adapter |
+| [Command] | [Builder] | [Bridge] |
+| [Interpreter] | [Factory Method] | [Composite] |
+| [Iterator] | [Prototype] | [Decorator] |
+| [Mediator] | [Singleton] | [Facade] |
+| [Memento] |  | [Flyweight] |
+| [Observer] |  | [Proxy] |
+| [State] |  |  |
+| [Strategy] |  |  |
+| [Template] |  |  |
+| [Method] |  |  |
+| [Visitor] |  |  |
 
 ![BCS]
 
