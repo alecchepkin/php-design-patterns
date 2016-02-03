@@ -5,8 +5,8 @@
 ####What it is:
 Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it.
 
-![alt tag](https://habrastorage.org/getpro/habr/post_images/ec8/3ef/362/ec83ef3621e0dbe56bed96e3c272e3ff.jpg)
-
+![Chain of Responsibility]
+[Chain of Responsibility]: https://github.com/olegre/DesignPatterns/blob/master/~images/ChainofResponsibility.png
 ```php
 
 $loger1 = new Logger\Email(LoggerHelper::PRIORITY_ERROR);
