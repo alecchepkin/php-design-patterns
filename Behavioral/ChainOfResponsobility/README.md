@@ -18,7 +18,7 @@ $loger->message('Access denied for User1', LoggerHelper::PRIORITY_NOTICE);
 $loger->message('Roll back the transaction', LoggerHelper::PRIORITY_ERROR);
 
 ```
-_[ru][RuChainofResponsibility]_
+_[ru][Ru ChainofResponsibility]_
 
 [ChainofResponsibility]: https://github.com/olegre/DesignPatterns/blob/master/~images/ChainofResponsibility.png
-[RuChainofResponsibility]: https://github.com/olegre/DesignPatterns/blob/master/~images/ru/ChainofResponsibility.png
+[Ru ChainofResponsibility]: https://github.com/olegre/DesignPatterns/blob/master/~images/ru/ChainofResponsibility.png
