@@ -1,5 +1,5 @@
 
-###![alt tag](https://habrastorage.org/getpro/habr/post_images/262/c9e/d92/262c9ed9247e232f099d35de841bf5d9.png) [Behavioral](https://github.com/olegre/DesignPatterns/tree/master/Behavioral/)
+###![][B] [Behavioral]
 - [Chain of Responsibility](https://github.com/olegre/DesignPatterns/tree/master/Behavioral/ChainOfResponsobility)
 - [Command](https://github.com/olegre/DesignPatterns/tree/master/Behavioral/Command)
 - [Interpreter](https://github.com/olegre/DesignPatterns/tree/master/Behavioral/Interpreter)
@@ -11,3 +11,6 @@
 - [Strategy](https://github.com/olegre/DesignPatterns/tree/master/Behavioral/Strategy)
 - [Template Method](https://github.com/olegre/DesignPatterns/tree/master/Behavioral/TemplateMethod)
 - [Visitor](https://github.com/olegre/DesignPatterns/tree/master/Behavioral/Visitor)
+
+[B]: https://github.com/olegre/DesignPatterns/blob/master/~images/B.png
+[Behavioral]: https://github.com/olegre/DesignPatterns/tree/master/Behavioral/
