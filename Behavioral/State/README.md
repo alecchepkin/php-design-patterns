@@ -9,7 +9,17 @@ Allow an object to alter its behavior when its internal state changes. The objec
 
 ```php
 
+$context = new context(new StateA());
+$this->assertInstanceOf('Behavioral\State\State\A', $context->getState());
 
+$context->request();
+$this->assertInstanceOf('Behavioral\State\State\B', $context->getState());
+
+$context->request();
+$this->assertInstanceOf('Behavioral\State\State\C', $context->getState());
+
+$context->request();
+$this->assertInstanceOf('Behavioral\State\State\A', $context->getState());
 
 ```
 _[ru][Ru State]_
