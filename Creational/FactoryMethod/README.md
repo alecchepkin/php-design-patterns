@@ -5,7 +5,7 @@
 ####What it is:
 Define an interface for creating an object, but let subclasses decide which class to instantiate. Lets a class defer instantiation to subclasses.
 
-![alt tag](https://habrastorage.org/getpro/habr/post_images/a79/c7d/d5e/a79c7dd5eaba210f19e194f2b97434d0.jpg)
+![FactoryMethod]
 
 ```php
 
@@ -16,3 +16,7 @@ $factory = (new Factory\Car())->instance();
 $this->assertInstanceOf('Creational\FactoryMethod\Product\Car', $factory);
 
 ```
+_[ru][Ru FactoryMethod]_
+
+[FactoryMethod]: https://github.com/olegre/DesignPatterns/blob/master/~images/FactoryMethod.png
+[Ru FactoryMethod]: https://github.com/olegre/DesignPatterns/blob/master/~images/ru/FactoryMethod.png

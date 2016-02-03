@@ -5,7 +5,7 @@
 ####What it is:
 Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
 
-![Observer](https://habrastorage.org/getpro/habr/post_images/cad/355/d48/cad355d48e3b9a2debcad55bc6504beb.jpg)
+![Observer]
 
 ```php
 
@@ -37,3 +37,7 @@ $this->assertEquals(10, $customer1->getTemperature());
 $this->assertEquals(10, $customer2->getTemperature());
 
 ```
+_[ru][Ru Observer]_
+
+[Observer]: https://github.com/olegre/DesignPatterns/blob/master/~images/Observer.png
+[Ru Observer]: https://github.com/olegre/DesignPatterns/blob/master/~images/ru/Observer.png

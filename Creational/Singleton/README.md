@@ -6,7 +6,7 @@
 Ensure a class only has one instance and provide a global point of access to it.
 
 
-![alt tag](https://habrastorage.org/getpro/habr/post_images/a9d/715/4a9/a9d7154a9b7e321a6330ab0c0337c061.jpg)
+![Singleton]
 
 ```php
 
@@ -15,3 +15,7 @@ $singleton2 = Singleton::instance();
 $this->assertTrue($singleton===$singleton2);
 
 ```
+_[ru][Ru Singleton]_
+
+[Singleton]: https://github.com/olegre/DesignPatterns/blob/master/~images/Singleton.png
+[Ru Singleton]: https://github.com/olegre/DesignPatterns/blob/master/~images/ru/Singleton.png

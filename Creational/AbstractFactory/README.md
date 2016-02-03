@@ -5,7 +5,7 @@
 ####What it is:
 Provides an interface for creating families of related or dependent objects without specifying their concrete class.
 
-![alt tag](https://habrastorage.org/getpro/habr/post_images/710/505/d1a/710505d1aff5667c97fcb06215faee31.jpg)
+![AbstractFactory]
 
 ```php
 
@@ -32,3 +32,7 @@ $this->assertEquals('mysql', $book->getType());
 $this->assertEquals(BookHelper::PUBLISHER_WILLIAMS, $book->getPublisher());
 
 ```
+_[ru][Ru AbstractFactory]_
+
+[AbstractFactory]: https://github.com/olegre/DesignPatterns/blob/master/~images/AbstractFactory.png
+[Ru AbstractFactory]: https://github.com/olegre/DesignPatterns/blob/master/~images/ru/AbstractFactory.png

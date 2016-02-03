@@ -5,7 +5,7 @@
 ####What it is:
 Define an object that encapsulates how a set of objects interact. Promotes loose coupling by keeping objects from referring to each other explicitly and it lets you vary their interactions independently.
 
-![alt tag](https://habrastorage.org/getpro/habr/post_images/9c4/8eb/8ab/9c48eb8ab34d448fc5886c5c965de090.jpg)
+![Mediator]
 
 ```php
 
@@ -28,3 +28,7 @@ $this->assertEquals("Design Patterns: Elements of Reusable Object-Oriented Softw
 $this->assertEquals("Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides", $author->getName());
 
 ```
+_[ru][Ru Mediator]_
+
+[Mediator]: https://github.com/olegre/DesignPatterns/blob/master/~images/Mediator.png
+[Ru Mediator]: https://github.com/olegre/DesignPatterns/blob/master/~images/ru/Mediator.png
