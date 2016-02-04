@@ -9,7 +9,13 @@ Define a family of algorithms, encapsulate each one, and make them interchangeab
 
 ```php
 
+$customer = new Customer(new NormalBillingStrategy);
+$customer->addToBilling($price=2.5, $quantity=2);
+$this->assertEquals(5.0, $customer->sumOfBilling());
 
+$customer->setStrategy(new HappyHourBillingStrategy);
+$customer->addToBilling($price=2.5, $quantity=4);
+$this->assertEquals(10.0, $customer->sumOfBilling());
 
 ```
 _[ru][Ru Strategy]_
