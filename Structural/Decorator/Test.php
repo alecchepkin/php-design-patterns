@@ -6,7 +6,7 @@
  * Time: 10:45
  */
 
-namespace Behavioral\Decorator;
+namespace Structural\Decorator;
 
 
 class Test extends \PHPUnit_Framework_TestCase

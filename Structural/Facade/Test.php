@@ -6,7 +6,7 @@
  * Time: 10:45
  */
 
-namespace Behavioral\Facade;
+namespace Structural\Facade;
 
 
 class Test extends \PHPUnit_Framework_TestCase

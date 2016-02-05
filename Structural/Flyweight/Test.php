@@ -6,7 +6,7 @@
  * Time: 10:45
  */
 
-namespace Behavioral\Flyweight;
+namespace Structural\Flyweight;
 
 
 class Test extends \PHPUnit_Framework_TestCase

@@ -9,7 +9,9 @@ Convert the interface of a class into another interface clients expect. Lets cla
 
 ```php
 
-
+$rectangle = new RectangleShapeAdapter(new RectangleLegacy());
+$result = $rectangle->display($x1=10, $y1=10, $x2=20, $y2=20);
+$this->assertTrue($result);
 
 ```
 _[ru][Ru Adapter]_

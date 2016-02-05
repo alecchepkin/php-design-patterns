@@ -6,7 +6,7 @@
  * Time: 10:45
  */
 
-namespace Behavioral\Proxy;
+namespace Structural\Proxy;
 
 
 class Test extends \PHPUnit_Framework_TestCase

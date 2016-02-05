@@ -6,7 +6,7 @@
  * Time: 10:45
  */
 
-namespace Behavioral\Bridge;
+namespace Structural\Bridge;
 
 
 class Test extends \PHPUnit_Framework_TestCase

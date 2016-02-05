@@ -6,7 +6,7 @@
  * Time: 10:45
  */
 
-namespace Behavioral\Composite;
+namespace Structural\Composite;
 
 
 class Test extends \PHPUnit_Framework_TestCase
