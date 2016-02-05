@@ -15,7 +15,7 @@ $this->assertTrue($result);
 
 
 $game = new BasketballGame;
-$game->play();
+$result = $game->play();
 $this->assertTrue($result);
 
 ```
