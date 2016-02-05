@@ -9,7 +9,14 @@ Represent an operation to be performed on the elements of an object structure. L
 
 ```php
 
+$visitor  = new PriceItemVisitor();
+$item = new BookItem($name = "Im Westen nichts Neues, Erich Maria Remarque", $price = 22.50);
+$price = $item->accept($visitor);
+$this->assertEquals(17.5, $price);
 
+$item = new FruitItem($name = "apple", $pricePerKg = 1.5, $weight = 2);
+$price = $item->accept($visitor);
+$this->assertEquals(3.0, $price);
 
 ```
 _[ru][Ru Visitor]_
