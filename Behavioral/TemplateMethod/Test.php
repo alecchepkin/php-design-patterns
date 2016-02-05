@@ -8,12 +8,20 @@
 
 namespace Behavioral\TemplateMethod;
 
+use Behavioral\TemplateMethod\Game\Basketball as BasketballGame;
+use Behavioral\TemplateMethod\Game\Football as FootballGame;
 
 class Test extends \PHPUnit_Framework_TestCase
 {
     public function testTemplateMethod()
     {
+        $game = new FootballGame;
+        $result = $game->play();
+        $this->assertTrue($result);
 
 
+        $game = new BasketballGame;
+        $result = $game->play();
+        $this->assertTrue($result);
     }
 }

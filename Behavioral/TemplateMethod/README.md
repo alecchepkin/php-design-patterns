@@ -9,7 +9,14 @@ Define the skeleton of an algorithm in an operation, deferring some steps to sub
 
 ```php
 
+$game = new FootballGame;
+$result = $game->play();
+$this->assertTrue($result);
 
+
+$game = new BasketballGame;
+$game->play();
+$this->assertTrue($result);
 
 ```
 _[ru][Ru TemplateMethod]_
