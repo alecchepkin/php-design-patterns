@@ -13,12 +13,16 @@ $window = new Window();
 $calculator = new Calculator();
 
 $window->placeOperation(new Plus($calculator, 10));
+$this->assertEquals(10, $calculator->getResult());
 
 $window->placeOperation(new Minus($calculator, 4));
+$this->assertEquals(6, $calculator->getResult());
 
 $window->placeOperation(new Multiplication($calculator, 3));
+$this->assertEquals(18, $calculator->getResult());
 
 $window->placeOperation(new Division($calculator, 2));
+$this->assertEquals(9, $calculator->getResult());
 
 ```
 _[ru][Ru Command]_
