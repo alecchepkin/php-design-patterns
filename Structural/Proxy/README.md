@@ -9,7 +9,12 @@ Provide a surrogate or placeholder for another object to control access to it.
 
 ```php
 
-
+$image = new ProxyImage('photo_10000.jpg');
+$this->assertInstanceOf('Structural\Proxy\Image\Proxy', $image);
+$this->assertNull($image->getImage());
+$result = $image->display();
+$this->assertTrue($result);
+$this->assertInstanceOf('Structural\Proxy\Image\Real', $image->getImage());
 
 ```
 _[ru][Ru Proxy]_
