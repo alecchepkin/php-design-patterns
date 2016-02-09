@@ -9,7 +9,21 @@ Provide a unified interface to a set of interfaces in a subsystem. Defines a hig
 
 ```php
 
+$computer = new ComputerFacade;
+$result = $computer->start();
+$this->assertNotEmpty($result);
 
+---
+Facade::start():
+
+$this->processor->freeze();
+$data = $this->hd->read($lba = self::BOOT_SECTOR, $size = self::SECTOR_SIZE);
+$this->memory->load(
+    $position = self::BOOT_ADDRESS,
+    $data
+);
+$this->processor->jumpTo($position = self::BOOT_ADDRESS);
+$this->processor->execute();
 
 ```
 _[ru][Ru Facade]_

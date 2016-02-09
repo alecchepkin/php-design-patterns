@@ -13,7 +13,8 @@ class Test extends \PHPUnit_Framework_TestCase
 {
     public function testFacade()
     {
-
-
+        $computer = new ComputerFacade;
+        $result = $computer->start();
+        $this->assertNotEmpty($result);
     }
 }
