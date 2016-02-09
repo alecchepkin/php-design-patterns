@@ -9,7 +9,13 @@ Convert the interface of a class into another interface clients expect. Lets cla
 
 ```php
 
-
+$widget = new BorderDecorator(
+    new ScrollDecorator(
+        new TextField(100, 40)
+    )
+);
+$result = $widget->draw();
+$this->assertTrue($result);
 
 ```
 _[ru][Ru Decorator]_
