@@ -10,7 +10,6 @@ namespace Structural\Proxy;
 
 
 use Structural\Proxy\Image\Proxy as ProxyImage;
-use Structural\Proxy\Image\Real as RealImage;
 
 class Test extends \PHPUnit_Framework_TestCase
 {
