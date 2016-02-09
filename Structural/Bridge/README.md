@@ -9,6 +9,13 @@ Convert the interface of a class into another interface clients expect. Lets cla
 
 ```php
 
+$square = new SquareShape(new GreenColor());
+$result =$square->applyColor();
+$this->assertEquals('#00FF00', $result);
+
+$circle = new SquareShape(new RedColor());
+$result =$circle->applyColor();
+$this->assertEquals('#FF0000', $result);
 
 
 ```
