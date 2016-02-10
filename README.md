@@ -11,8 +11,7 @@
 | [Observer] |  | [Proxy] |
 | [State] |  |  |
 | [Strategy] |  |  |
-| [Template] |  |  |
-| [Method] |  |  |
+| [Template Method] |  |  |
 | [Visitor] |  |  |
 
 ![BCS]
@@ -46,8 +45,7 @@
 [Observer]: <https://github.com/olegre/DesignPatterns/tree/master/Behavioral/Observer>
 [State]: <https://github.com/olegre/DesignPatterns/tree/master/Behavioral/State>
 [Strategy]: <https://github.com/olegre/DesignPatterns/tree/master/Behavioral/Strategy>
-[Template]: <https://github.com/olegre/DesignPatterns/tree/master/Behavioral/Template>
-[Method]: <https://github.com/olegre/DesignPatterns/tree/master/Behavioral/Method>
+[Template Method]: <https://github.com/olegre/DesignPatterns/tree/master/Behavioral/TemplateMethod>
 [Visitor]: <https://github.com/olegre/DesignPatterns/tree/master/Behavioral/Visitor>
 [Creational]: <https://github.com/olegre/DesignPatterns/tree/master/Creational/>
 [Abstract Factory]: <https://github.com/olegre/DesignPatterns/tree/master/Creational/AbstractFactory>
