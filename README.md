@@ -2,7 +2,7 @@
 
 | ![][B] [Behavioral]  | ![][C] [Creational] | ![][S] [Structural] |
 | ------------- | ------------- | ------------- |
-| [Chain of Responsibility] | Abstract Factory | Adapter |
+| [Chain of Responsibility] | [Abstract Factory] | [Adapter] |
 | [Command] | [Builder] | [Bridge] |
 | [Interpreter] | [Factory Method] | [Composite] |
 | [Iterator] | [Prototype] | [Decorator] |
