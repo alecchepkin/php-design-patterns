@@ -16,22 +16,17 @@ $wHello->add(new Character('e'));
 $wHello->add(new Character('l'));
 $wHello->add(new Character('l'));
 $wHello->add(new Character('o'));
-
 $sentence->add($wHello);
 $sentence->add(new Character(','));
 $sentence->add(new Character(' '));
-
 $wWorld = new Word();
-$sentence->add(new Character('w'));
-$sentence->add(new Character('o'));
-$sentence->add(new Character('r'));
-$sentence->add(new Character('l'));
-$sentence->add(new Character('d'));
-
+$wWorld->add(new Character('w'));
+$wWorld->add(new Character('o'));
+$wWorld->add(new Character('r'));
+$wWorld->add(new Character('l'));
+$wWorld->add(new Character('d'));
 $sentence->add($wWorld);
-
 $sentence->add(new Character('!'));
-
 $this->assertEquals('Hello, world!', $sentence->display());
 
 ```
