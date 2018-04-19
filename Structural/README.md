@@ -1,4 +1,4 @@
-###![][S] [Structural]
+### ![][S] [Structural]
 - [Adapter](https://github.com/olegre/DesignPatterns/tree/master/Structural/Adapter)
 - [Bridge](https://github.com/olegre/DesignPatterns/tree/master/Structural/Bridge)
 - [Composite](https://github.com/olegre/DesignPatterns/tree/master/Structural/Composite)

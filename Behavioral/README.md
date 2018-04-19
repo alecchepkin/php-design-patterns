@@ -1,5 +1,5 @@
 
-###![][B] [Behavioral]
+### ![][B] [Behavioral]
 - [Chain of Responsibility](https://github.com/olegre/DesignPatterns/tree/master/Behavioral/ChainOfResponsobility)
 - [Command](https://github.com/olegre/DesignPatterns/tree/master/Behavioral/Command)
 - [Interpreter](https://github.com/olegre/DesignPatterns/tree/master/Behavioral/Interpreter)

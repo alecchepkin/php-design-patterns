@@ -1,4 +1,4 @@
-###![][C] [Creational]
+### ![][C] [Creational]
 - [Abstract Factory](https://github.com/olegre/DesignPatterns/tree/master/Creational/AbstractFactory)
 - [Builder](https://github.com/olegre/DesignPatterns/tree/master/Creational/Builder)
 - [Factory Method](https://github.com/olegre/DesignPatterns/tree/master/Creational/FactoryMethod)
