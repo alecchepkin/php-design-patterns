@@ -2,5 +2,11 @@
         bootstrap="bootstrap.php"
         colors="true"
 >
-
+    <filter>
+        <whitelist>
+            <directory>Behavioral</directory>
+            <directory>Creational</directory>
+            <directory>Structural</directory>
+        </whitelist>
+    </filter>
 </phpunit>
