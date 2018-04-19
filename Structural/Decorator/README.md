@@ -1,8 +1,8 @@
-###Decorator
+### Decorator
 
-####Type: Structural
+#### Type: Structural
 
-####What it is:
+#### What it is:
 
 
 ![Decorator]

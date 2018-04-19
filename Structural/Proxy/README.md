@@ -1,8 +1,8 @@
-###Proxy
+### Proxy
 
-####Type: Structural
+#### Type: Structural
 
-####What it is:
+#### What it is:
 Provide a surrogate or placeholder for another object to control access to it.
 
 ![Proxy]

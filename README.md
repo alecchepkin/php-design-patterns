@@ -16,7 +16,7 @@
 
 ![BCS]
 
-####Relations between classes
+#### Relations between classes
 
  ![aggregation] агрегация (aggregation) — описывает связь «часть»–«целое», в котором «часть» может существовать отдельно от «целого». Ромб указывается со стороны «целого».
 

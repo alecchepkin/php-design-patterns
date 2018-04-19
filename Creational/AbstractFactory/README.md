@@ -1,8 +1,8 @@
-###Abstract Factory
+### Abstract Factory
 
-####Type: Creational
+#### Type: Creational
 
-####What it is:
+#### What it is:
 Provides an interface for creating families of related or dependent objects without specifying their concrete class.
 
 ![AbstractFactory]

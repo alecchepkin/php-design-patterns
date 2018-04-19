@@ -1,8 +1,8 @@
-###Flyweight
+### Flyweight
 
-####Type: Structural
+#### Type: Structural
 
-####What it is:
+#### What it is:
 Use sharing to support large numbers of fine grained objects efficiently.
 
 ![Flyweight]

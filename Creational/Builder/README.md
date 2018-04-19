@@ -1,8 +1,8 @@
-###Builder
+### Builder
 
-####Type: Creational
+#### Type: Creational
 
-####What it is:
+#### What it is:
 Separate the construction of a complex object from its representing so that the same construction process can create different representations.
 
 ![Builder]

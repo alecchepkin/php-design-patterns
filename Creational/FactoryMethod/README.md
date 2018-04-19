@@ -1,8 +1,8 @@
-###FactoryMethod
+### FactoryMethod
 
-####Type: Creational
+#### Type: Creational
 
-####What it is:
+#### What it is:
 Define an interface for creating an object, but let subclasses decide which class to instantiate. Lets a class defer instantiation to subclasses.
 
 ![FactoryMethod]

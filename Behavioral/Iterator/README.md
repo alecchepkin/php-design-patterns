@@ -1,8 +1,8 @@
-###Iterator
+### Iterator
 
-####Type: Behavioral
+#### Type: Behavioral
 
-####What it is:
+#### What it is:
 Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
 
 ![Iterator]
